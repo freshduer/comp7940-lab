@@ -1,0 +1,247 @@
+Job started on Wed Sep 17 15:11:28 HKT 2025
+Running on node: gpu10
+Job ID: 1396
+Active conda environment: recsys-py310
+Python 3.10.18
+
+=== Running parallel methods ===
+Running MPI with 4 processes...
+
+=== Running MPI method with 4 processes ===
+MPI: Testing 1000000 points...
+
+=== Running MPI method with 4 processes ===
+MPI: Testing 1000000 points...
+
+=== Running MPI method with 4 processes ===
+MPI: Testing 1000000 points...
+
+=== Running MPI method with 4 processes ===
+MPI: Testing 1000000 points...
+MPI: Testing 10000000 points...
+MPI: Testing 10000000 points...
+MPI: Testing 10000000 points...
+MPI: Testing 10000000 points...
+MPI: Testing 100000000 points...
+MPI: Testing 100000000 points...
+MPI: Testing 100000000 points...
+MPI: Testing 100000000 points...
+
+=== Running Sequential method ===
+Sequential: Testing 1000000 points...
+Sequential: Estimated pai = 3.140648, Error = 0.0009446535897930097, Time = 0.21625638008117676 seconds
+Sequential: Testing 10000000 points...
+Sequential: Estimated pai = 3.1401216, Error = 0.0014710535897930477, Time = 2.1616551876068115 seconds
+Sequential: Testing 100000000 points...
+Sequential: Estimated pai = 3.14139692, Error = 0.00019573358979307898, Time = 21.593239068984985 seconds
+
+=== Running NumPy method ===
+NumPy: Testing 1000000 points...
+NumPy Vectorized: Estimated pi = 3.14146, Error = 0.00013265358979319686, Time = 0.02294635772705078 seconds
+NumPy: Testing 10000000 points...
+NumPy Vectorized: Estimated pi = 3.1416164, Error = 2.374641020708168e-05, Time = 0.20295238494873047 seconds
+NumPy: Testing 100000000 points...
+NumPy Vectorized: Estimated pi = 3.14132368, Error = 0.0002689735897929424, Time = 2.02423357963562 seconds
+
+=== Running Multiprocessing method ===
+Multiprocessing: Testing 1000000 points with 1 workers...
+Multiprocessing (1 processes): Estimated pi = 3.141672, Error = 7.93464102066821e-05, Time = 0.26190948486328125 seconds
+Multiprocessing: Testing 1000000 points with 2 workers...
+Multiprocessing (2 processes): Estimated pi = 3.13876, Error = 0.0028326535897931215, Time = 0.19942450523376465 seconds
+Multiprocessing: Testing 1000000 points with 4 workers...
+Multiprocessing (4 processes): Estimated pi = 3.137536, Error = 0.004056653589793235, Time = 0.1479334831237793 seconds
+Multiprocessing: Testing 1000000 points with 8 workers...
+Multiprocessing (8 processes): Estimated pi = 3.138136, Error = 0.0034566535897933015, Time = 0.1808023452758789 seconds
+Multiprocessing: Testing 10000000 points with 1 workers...
+Multiprocessing (1 processes): Estimated pi = 3.14109, Error = 0.0005026535897929563, Time = 2.17083740234375 seconds
+Multiprocessing: Testing 10000000 points with 2 workers...
+Multiprocessing (2 processes): Estimated pi = 3.1413036, Error = 0.0002890535897930313, Time = 1.6799359321594238 seconds
+Multiprocessing: Testing 10000000 points with 4 workers...
+Multiprocessing (4 processes): Estimated pi = 3.1405888, Error = 0.0010038535897929357, Time = 1.1222076416015625 seconds
+Multiprocessing: Testing 10000000 points with 8 workers...
+Multiprocessing (8 processes): Estimated pi = 3.1409584, Error = 0.0006342535897929658, Time = 1.2555992603302002 seconds
+Multiprocessing: Testing 100000000 points with 1 workers...
+Multiprocessing (1 processes): Estimated pi = 3.1412908, Error = 0.0003018535897929553, Time = 21.64961051940918 seconds
+Multiprocessing: Testing 100000000 points with 2 workers...
+Multiprocessing (2 processes): Estimated pi = 3.14140756, Error = 0.00018509358979290624, Time = 16.813560009002686 seconds
+Multiprocessing: Testing 100000000 points with 4 workers...
+Multiprocessing (4 processes): Estimated pi = 3.14158688, Error = 5.773589792923417e-06, Time = 11.410200595855713 seconds
+Multiprocessing: Testing 100000000 points with 8 workers...
+Multiprocessing (8 processes): Estimated pi = 3.14151528, Error = 7.737358979298392e-05, Time = 11.613786458969116 seconds
+
+=== Running Concurrent Futures method ===
+Concurrent Futures: Testing 1000000 points with 1 workers...
+Concurrent Futures (1 workers): Estimated pi = 3.142304, Error = 0.0007113464102070921, Time = 0.22676491737365723 seconds
+Concurrent Futures: Testing 1000000 points with 2 workers...
+Concurrent Futures (2 workers): Estimated pi = 3.141876, Error = 0.0002833464102067751, Time = 0.2104642391204834 seconds
+Concurrent Futures: Testing 1000000 points with 4 workers...
+Concurrent Futures (4 workers): Estimated pi = 3.141624, Error = 3.134641020707818e-05, Time = 0.15424609184265137 seconds
+Concurrent Futures: Testing 1000000 points with 8 workers...
+Concurrent Futures (8 workers): Estimated pi = 3.140688, Error = 0.0009046535897931918, Time = 0.13200139999389648 seconds
+Concurrent Futures: Testing 10000000 points with 1 workers...
+Concurrent Futures (1 workers): Estimated pi = 3.1419196, Error = 0.0003269464102069186, Time = 2.1652984619140625 seconds
+Concurrent Futures: Testing 10000000 points with 2 workers...
+Concurrent Futures (2 workers): Estimated pi = 3.1416544, Error = 6.174641020706417e-05, Time = 1.7497239112854004 seconds
+Concurrent Futures: Testing 10000000 points with 4 workers...
+Concurrent Futures (4 workers): Estimated pi = 3.141662, Error = 6.934641020706067e-05, Time = 1.4662971496582031 seconds
+Concurrent Futures: Testing 10000000 points with 8 workers...
+Concurrent Futures (8 workers): Estimated pi = 3.1416448, Error = 5.214641020678812e-05, Time = 1.2214748859405518 seconds
+Concurrent Futures: Testing 100000000 points with 1 workers...
+Concurrent Futures (1 workers): Estimated pi = 3.14147604, Error = 0.00011661358979297987, Time = 21.66083335876465 seconds
+Concurrent Futures: Testing 100000000 points with 2 workers...
+Concurrent Futures (2 workers): Estimated pi = 3.1413086, Error = 0.0002840535897932206, Time = 14.525622606277466 seconds
+Concurrent Futures: Testing 100000000 points with 4 workers...
+Concurrent Futures (4 workers): Estimated pi = 3.14151296, Error = 7.969358979309504e-05, Time = 11.121951580047607 seconds
+Concurrent Futures: Testing 100000000 points with 8 workers...
+Concurrent Futures (8 workers): Estimated pi = 3.14162796, Error = 3.530641020699221e-05, Time = 11.816728591918945 seconds
+
+=== Running Thread Executor method ===
+Thread Executor: Testing 1000000 points with 1 workers...
+Thread Pool (1 threads): Estimated pi = 3.143448, Error = 0.001855346410206682, Time = 2.585428476333618 seconds
+Thread Executor: Testing 1000000 points with 2 workers...
+Thread Pool (2 threads): Estimated pi = 3.140428, Error = 0.0011646535897931187, Time = 0.218034029006958 seconds
+Thread Executor: Testing 1000000 points with 4 workers...
+Thread Pool (4 threads): Estimated pi = 3.140912, Error = 0.0006806535897929678, Time = 0.22353410720825195 seconds
+Thread Executor: Testing 1000000 points with 8 workers...
+Thread Pool (8 threads): Estimated pi = 3.140536, Error = 0.0010566535897931217, Time = 0.21828866004943848 seconds
+Thread Executor: Testing 10000000 points with 1 workers...
+Thread Pool (1 threads): Estimated pi = 3.1410088, Error = 0.0005838535897932928, Time = 2.156285047531128 seconds
+Thread Executor: Testing 10000000 points with 2 workers...
+Thread Pool (2 threads): Estimated pi = 3.1413276, Error = 0.00026505358979322935, Time = 2.1868817806243896 seconds
+Thread Executor: Testing 10000000 points with 4 workers...
+Thread Pool (4 threads): Estimated pi = 3.141518, Error = 7.465358979308334e-05, Time = 2.1500399112701416 seconds
+Thread Executor: Testing 10000000 points with 8 workers...
+Thread Pool (8 threads): Estimated pi = 3.1410852, Error = 0.0005074535897930943, Time = 2.139688730239868 seconds
+Thread Executor: Testing 100000000 points with 1 workers...
+Thread Pool (1 threads): Estimated pi = 3.1416626, Error = 6.99464102069669e-05, Time = 21.894391536712646 seconds
+Thread Executor: Testing 100000000 points with 2 workers...
+Thread Pool (2 threads): Estimated pi = 3.14133676, Error = 0.00025589358979294374, Time = 21.639113187789917 seconds
+Thread Executor: Testing 100000000 points with 4 workers...
+Thread Pool (4 threads): Estimated pi = 3.14159728, Error = 4.626410206931553e-06, Time = 21.306550979614258 seconds
+Thread Executor: Testing 100000000 points with 8 workers...
+Thread Pool (8 threads): Estimated pi = 3.14161028, Error = 1.762641020697231e-05, Time = 20.809797763824463 seconds
+
+====================================================================================================
+BENCHMARK RESULTS:
+====================================================================================================
+ pi_estimate    error      time                         method  num_points  workers
+    3.139016 0.002577  0.058615              MPI (4 processes)     1000000        4
+    3.141019 0.000573  0.584690              MPI (4 processes)    10000000        4
+    3.141543 0.000050  5.850310              MPI (4 processes)   100000000        4
+    3.140648 0.000945  0.216256                     Sequential     1000000        1
+    3.140122 0.001471  2.161655                     Sequential    10000000        1
+    3.141397 0.000196 21.593239                     Sequential   100000000        1
+    3.141460 0.000133  0.022946               NumPy Vectorized     1000000        1
+    3.141616 0.000024  0.202952               NumPy Vectorized    10000000        1
+    3.141324 0.000269  2.024234               NumPy Vectorized   100000000        1
+    3.141672 0.000079  0.261909  Multiprocessing (1 processes)     1000000        1
+    3.138760 0.002833  0.199425  Multiprocessing (2 processes)     1000000        2
+    3.137536 0.004057  0.147933  Multiprocessing (4 processes)     1000000        4
+    3.138136 0.003457  0.180802  Multiprocessing (8 processes)     1000000        8
+    3.141090 0.000503  2.170837  Multiprocessing (1 processes)    10000000        1
+    3.141304 0.000289  1.679936  Multiprocessing (2 processes)    10000000        2
+    3.140589 0.001004  1.122208  Multiprocessing (4 processes)    10000000        4
+    3.140958 0.000634  1.255599  Multiprocessing (8 processes)    10000000        8
+    3.141291 0.000302 21.649611  Multiprocessing (1 processes)   100000000        1
+    3.141408 0.000185 16.813560  Multiprocessing (2 processes)   100000000        2
+    3.141587 0.000006 11.410201  Multiprocessing (4 processes)   100000000        4
+    3.141515 0.000077 11.613786  Multiprocessing (8 processes)   100000000        8
+    3.142304 0.000711  0.226765 Concurrent Futures (1 workers)     1000000        1
+    3.141876 0.000283  0.210464 Concurrent Futures (2 workers)     1000000        2
+    3.141624 0.000031  0.154246 Concurrent Futures (4 workers)     1000000        4
+    3.140688 0.000905  0.132001 Concurrent Futures (8 workers)     1000000        8
+    3.141920 0.000327  2.165298 Concurrent Futures (1 workers)    10000000        1
+    3.141654 0.000062  1.749724 Concurrent Futures (2 workers)    10000000        2
+    3.141662 0.000069  1.466297 Concurrent Futures (4 workers)    10000000        4
+    3.141645 0.000052  1.221475 Concurrent Futures (8 workers)    10000000        8
+    3.141476 0.000117 21.660833 Concurrent Futures (1 workers)   100000000        1
+    3.141309 0.000284 14.525623 Concurrent Futures (2 workers)   100000000        2
+    3.141513 0.000080 11.121952 Concurrent Futures (4 workers)   100000000        4
+    3.141628 0.000035 11.816729 Concurrent Futures (8 workers)   100000000        8
+    3.143448 0.001855  2.585428        Thread Pool (1 threads)     1000000        1
+    3.140428 0.001165  0.218034        Thread Pool (2 threads)     1000000        2
+    3.140912 0.000681  0.223534        Thread Pool (4 threads)     1000000        4
+    3.140536 0.001057  0.218289        Thread Pool (8 threads)     1000000        8
+    3.141009 0.000584  2.156285        Thread Pool (1 threads)    10000000        1
+    3.141328 0.000265  2.186882        Thread Pool (2 threads)    10000000        2
+    3.141518 0.000075  2.150040        Thread Pool (4 threads)    10000000        4
+    3.141085 0.000507  2.139689        Thread Pool (8 threads)    10000000        8
+    3.141663 0.000070 21.894392        Thread Pool (1 threads)   100000000        1
+    3.141337 0.000256 21.639113        Thread Pool (2 threads)   100000000        2
+    3.141597 0.000005 21.306551        Thread Pool (4 threads)   100000000        4
+    3.141610 0.000018 20.809798        Thread Pool (8 threads)   100000000        8
+
+Time comparison plot saved as 'pi_benchmark_time.png'
+Error comparison plot saved as 'pi_benchmark_error.png'
+
+====================================================================================================
+PERFORMANCE ANALYSIS BY METHOD
+====================================================================================================
+
+MPI (4 processes):
+  Fastest config: 1e+06 points, 4 workers (0.0586s)
+  Most accurate:  1e+08 points, 4 workers (error: 5.01e-05)
+
+Sequential:
+  Fastest config: 1e+06 points, 1 workers (0.2163s)
+  Most accurate:  1e+08 points, 1 workers (error: 1.96e-04)
+
+NumPy Vectorized:
+  Fastest config: 1e+06 points, 1 workers (0.0229s)
+  Most accurate:  1e+07 points, 1 workers (error: 2.37e-05)
+
+Multiprocessing (1 processes):
+  Fastest config: 1e+06 points, 1 workers (0.2619s)
+  Most accurate:  1e+06 points, 1 workers (error: 7.93e-05)
+
+Multiprocessing (2 processes):
+  Fastest config: 1e+06 points, 2 workers (0.1994s)
+  Most accurate:  1e+08 points, 2 workers (error: 1.85e-04)
+
+Multiprocessing (4 processes):
+  Fastest config: 1e+06 points, 4 workers (0.1479s)
+  Most accurate:  1e+08 points, 4 workers (error: 5.77e-06)
+
+Multiprocessing (8 processes):
+  Fastest config: 1e+06 points, 8 workers (0.1808s)
+  Most accurate:  1e+08 points, 8 workers (error: 7.74e-05)
+
+Concurrent Futures (1 workers):
+  Fastest config: 1e+06 points, 1 workers (0.2268s)
+  Most accurate:  1e+08 points, 1 workers (error: 1.17e-04)
+
+Concurrent Futures (2 workers):
+  Fastest config: 1e+06 points, 2 workers (0.2105s)
+  Most accurate:  1e+07 points, 2 workers (error: 6.17e-05)
+
+Concurrent Futures (4 workers):
+  Fastest config: 1e+06 points, 4 workers (0.1542s)
+  Most accurate:  1e+06 points, 4 workers (error: 3.13e-05)
+
+Concurrent Futures (8 workers):
+  Fastest config: 1e+06 points, 8 workers (0.1320s)
+  Most accurate:  1e+08 points, 8 workers (error: 3.53e-05)
+
+Thread Pool (1 threads):
+  Fastest config: 1e+07 points, 1 workers (2.1563s)
+  Most accurate:  1e+08 points, 1 workers (error: 6.99e-05)
+
+Thread Pool (2 threads):
+  Fastest config: 1e+06 points, 2 workers (0.2180s)
+  Most accurate:  1e+08 points, 2 workers (error: 2.56e-04)
+
+Thread Pool (4 threads):
+  Fastest config: 1e+06 points, 4 workers (0.2235s)
+  Most accurate:  1e+08 points, 4 workers (error: 4.63e-06)
+
+Thread Pool (8 threads):
+  Fastest config: 1e+06 points, 8 workers (0.2183s)
+  Most accurate:  1e+08 points, 8 workers (error: 1.76e-05)
+
+================================================================================
+OVERALL BEST PERFORMANCE
+================================================================================
+Fastest overall: NumPy Vectorized (0.0229s)
+Most accurate:   Thread Pool (4 threads) (error: 4.63e-06)
+
+Job completed on Wed Sep 17 15:16:11 HKT 2025
