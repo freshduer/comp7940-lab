@@ -1,0 +1,7 @@
+*.jpg
+*.png
+*.gz
+*.txt
+*.zip
+.vscode
+data1
