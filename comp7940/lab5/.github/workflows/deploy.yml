@@ -3,7 +3,7 @@ name: AWS EC2 Deploy
 on:
   push:
     branches:
-      - main
+      - comp7940
 
 jobs:
   deploy:
